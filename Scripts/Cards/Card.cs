@@ -7,7 +7,7 @@ namespace Maitson.PIERRE.UnoProject {
 	
 	public partial class Card
 	{
-		protected CardData cardData;
+		public CardData cardData;
 		protected Card(CardData pCardData = null)
 		{
 			cardData = pCardData;

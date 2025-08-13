@@ -7,6 +7,7 @@ namespace Maitson.PIERRE.UnoProject {
 	
 	public partial class CardData
 	{
+		
 		[Flags]
 		public enum CardType 
 		{
@@ -29,6 +30,7 @@ namespace Maitson.PIERRE.UnoProject {
 
 		public enum CardColor
 		{
+			Colorless,
 			Blue,
 			Red,
 			Green,
