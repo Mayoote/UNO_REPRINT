@@ -7,10 +7,10 @@ namespace Maitson.PIERRE.UnoProject {
 	
 	public partial class Reverse : Card
 	{
-		CardData.CardType cardType = CardData.CardType.Reverse;
 		public Reverse()
 		{
-		
+			cardData.cardType = CardData.CardType.Reverse;
+			cardData.canInvertTurnOrder = true;
 		}
 	}
 }

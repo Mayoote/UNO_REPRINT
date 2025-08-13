@@ -7,10 +7,9 @@ namespace Maitson.PIERRE.UnoProject {
 	
 	public partial class NumberSix : Card
 	{
-		CardData.CardType cardType = CardData.CardType.numberSix;
 		public NumberSix()
 		{
-	
+			cardData.cardType = CardData.CardType.numberSix;
 		}
 	}
 }

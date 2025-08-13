@@ -10,11 +10,14 @@ namespace Maitson.PIERRE.UnoProject.Managers {
 		public override void _Ready()
 		{
 			DeckData lDeckData = new DeckData();
-			//lDeckData.numberOneAmount = 12; // j'peux tweak le nombre comme je veux
 			Deck lDeck = new Deck(lDeckData);
 			
-			GD.Print(lDeck.cards[2]);
-			GD.Print(lDeck.cards.Count);
+			GD.Print(lDeck.cards[30].cardData.cardColor); //Red Card
+			GD.Print(lDeck.cards[70].cardData.cardColor); //Green Card
+			GD.Print(lDeck.cards[50].cardData.cardColor); //Green Card
+			GD.Print(lDeck.cards[90].cardData.cardColor); // Yellow Card
+			GD.Print(lDeck.cards[100].cardData.cardColor); // Colorless Card
+			GD.Print(lDeck.cards.Count); // 108
 		}
 
 		public override void _Process(double pDelta)

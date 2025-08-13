@@ -10,7 +10,7 @@ namespace Maitson.PIERRE.UnoProject {
 		public CardData cardData;
 		protected Card(CardData pCardData = null)
 		{
-			cardData = pCardData;
+			cardData = new CardData();
 		}
 
 		// protected void SetupCardData(CardData.CardType pCardType)

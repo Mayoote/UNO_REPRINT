@@ -45,7 +45,7 @@ namespace Maitson.PIERRE.UnoProject
             for (int i = 0; i < pAmount; i++)
             {
                 lT = new T();
-                //lT.cardData.cardColor = (CardData.CardColor)pColorIndex;
+                lT.cardData.cardColor = (CardData.CardColor)pColorIndex;
                 cards.Add(lT);
             }
         }

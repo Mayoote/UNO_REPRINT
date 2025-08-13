@@ -7,8 +7,10 @@ namespace Maitson.PIERRE.UnoProject {
 	
 	public partial class DeckData : Node
 	{
-		//These default values came from the official Uno deck 
+		// These default values came from the official Uno deck 
 		// Amount per color except Wilds
+		// I did not include Blank Cards
+		
 		public int numberZeroAmount = 1;
 		public int numberOneAmount = 2;
 		public int numberTwoAmount = 2;
@@ -19,11 +21,11 @@ namespace Maitson.PIERRE.UnoProject {
 		public int numberSevenAmount = 2;
 		public int numberEightAmount = 2;
 		public int numberNineAmount = 2;
-		public int wildAmount = 4;
-		public int wildPlusFoursAmount = 4;
 		public int reverseAmount = 2;
 		public int skipAmount = 2;
 		public int drawTwoAmount = 2;
+		public int wildAmount = 4;
+		public int wildPlusFoursAmount = 4;
 		
 	}
 }
